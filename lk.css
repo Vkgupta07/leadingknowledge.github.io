@@ -1,0 +1,571 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    font-size: 87.5%;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body
+{
+    margin: 0 auto;
+}
+.header
+{
+	background-color: #4cb4b4;
+}
+
+ .logo1
+ { width: 11%}
+
+.knowledge{width: 100%;}
+
+
+nav ul
+{
+	float:right;
+	width: 75%;
+	margin-top: -2%;
+
+}
+
+
+.sel
+{ 
+    width: 152px;
+    height: 27px;
+    padding: 2px;
+    margin: 0% 0% 0% 28%;
+ }
+
+
+
+nav ul li
+{
+	float:left;
+	margin:0.1% 0% 0 2%;
+	padding:0px 10px;
+	border-radius:20px;
+	list-style-type:none;
+	
+}
+
+nav ul li a
+{
+	color:#CCC;
+	text-decoration:none;
+	font-family:Verdana, Geneva, sans-serif;
+}
+a:hover
+{
+    color: black;
+}
+a:active
+{
+    color: white;
+}
+
+.slider
+{
+    width: 100%;
+    height: 380px;
+    
+}
+.container{height: auto}
+
+
+
+.one
+{
+  text-align: justify;
+   width: 26%;
+   padding: 2% 1% 6% 6%;
+   font-size: medium;
+   margin-left: -5%;
+  margin-top: 13px;
+}
+.two
+{
+  margin-bottom: 4%;
+  margin-left: 1%;
+  font-size: medium;
+  width: 27%;
+
+}
+
+
+ .two ul li a:hover
+ {
+    color: red;
+ }
+
+.two ul li{ margin-left: 20px; margin-top: 5px}
+
+
+
+.two ul li a
+{
+    text-decoration: none;
+    padding-left: 4%;
+}
+
+.three
+{
+    width: 36%;
+    font-size: small;
+    margin: -35% 31% 0% 0%;
+    float: right;
+    
+}
+
+.three ul li 
+{
+    list-style-type: none;
+    margin: 10px 0;
+
+}
+
+
+.four
+{
+    width: 21%;
+    float: right;
+    margin: -36% 7% 0 0;
+   font-size: 20px;
+}
+
+.four ol {line-height: 30px;}
+
+.four ol li a:hover{color: red;}
+
+.tpic
+{
+    width: 17%;
+}
+
+
+.f
+{
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+#tdetail
+{
+    margin: -15% 0% 0% 24%;
+}
+
+.follow
+{
+    margin: -41% 0% 0% 4%;
+}
+.followmail
+{
+    color: blue;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.mailing
+{
+    text-align: center;
+   color: #fff;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.mailing a:hover
+{
+    color: deepskyblue;
+}
+.twitt
+{
+    color: #fff;
+    text-align: center;
+}
+.twi
+{
+      text-decoration: none;
+}
+.twitt a:hover
+{
+     color: deepskyblue;
+}
+
+.add
+{
+    color: white;
+    float: right;
+    margin: 1% 6% 0 0;
+}
+
+
+
+.first{background-color: #4cb4b4;
+margin-top: 40%}
+
+
+
+
+.clr
+{
+    height: 28px;
+}
+
+
+
+ 
+
+
+ .Signup
+ {
+     margin: 3% 0% 3% 45%;
+     border-radius: 15px ;
+     width: 8%;
+     cursor: pointer;
+     height: 26px;
+ }
+
+ .fcontent 
+ {
+    background-color: #e6e5e3;
+ }
+
+ label 
+ {
+    
+    display: inline-block;
+    width: 120px;
+    margin: 0% -28% 2% 8%;
+    padding: 2% 0% 0% 22%;
+
+
+ }
+ .menu
+ {
+    float: right;
+    width: 95%;
+    margin-top: 1%;
+ }
+
+
+ .dob
+ {
+     margin-left: 28%;
+ }
+
+ .spc
+ {
+     
+    width: 145px;
+    height: 25px;
+    background-color: white;
+    margin-left: 28%;
+    font-size: 80%;
+ }
+  
+ 
+ .scenter
+{
+     margin: 0 0 3% 44%;
+     font-family: verdana;
+
+}
+
+.cntct
+{
+    margin: -7% 1% 0% 0%;
+    float: right;
+    color: red;
+}
+
+
+.cnt
+{
+    float: right ;
+    color: red;
+    margin: 1% 1% 0% 0%; 
+}
+
+.blink
+{
+  color: blue;
+  animation-duration: 1.5s;    /*blinking speed decreases and increase */
+  animation-name: tgle;
+  animation-iteration-count: infinite ;
+}
+
+@keyframes tgle {
+  0% {
+    opacity: 0;
+  }
+
+  49.99% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+
+  99.99% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.blink:hover{color: red}
+
+/* .blin
+{
+   -webkit-animation: blink 1.5s linear infinite;
+    -moz-animation: blink 1.5s linear infinite;
+   animation: blink 1.5s linear infinite;
+}
+
+@-webkit-keyframes blink
+{
+  0%{opacity: 1;}
+  50%{opacity:0;}
+  100%{opacity:1;}
+}
+@-moz-keyframes blink
+{
+  0%{opacity: 1;}
+  50%{opacity:0;}
+  100%{opacity:1;}
+}
+@keyframes blink
+{
+  0%{opacity: 1;}
+  50%{opacity:0;}
+  100%{opacity:1;}
+} */
+.right
+{
+    color: lightblue;
+    padding: 0% 0% 0% 43%;
+    background-color: #0e7373;
+    font-size: small;
+    margin-top: 60px;
+    
+}
+.arr{margin-left:9%;}
+
+
+
+.fevicon ul
+{
+     list-style-type:none;
+     margin: -5% 0 0 86%;
+     
+}
+
+
+
+.fevicon ul li
+ 
+{
+    margin-left: 5px;
+    display: inline;
+}
+
+.sending{
+    width: 25%;
+    margin: -61px 0 -33px 550px;
+}
+
+
+.field
+{ 
+    width: 60%;
+    margin:-2% 0 0 20%;
+    background-color: #c7cccc;
+    border: 1px;
+    border-radius: 0 25px;
+}
+
+
+
+
+#active
+{
+    font-weight: bold;
+}
+
+#video
+{
+    float: right;
+    margin: -18.6% 3% 0 0;
+
+}
+.follow a:hover
+{
+  cursor: pointer;
+    
+}
+
+
+
+
+@media only screen and (min-width:150px) and (max-width:600px )
+{
+  
+    .logo1{
+
+    	width: 98%;
+      height: 121px;
+    }
+   
+
+ 
+.cntct
+{
+    margin: 0;
+ 
+    height: 13px;
+    overflow: hidden;
+
+
+}
+
+nav
+{
+    overflow: hidden;
+    height:189px;
+ } 
+
+
+
+
+nav ul
+{
+     padding-left: 0;
+     margin: 6% 16%;
+
+}
+
+
+nav ul li
+{
+   width: 100%;
+   line-height: 22px;
+   text-align: center;
+   margin-left: 2%;
+ 
+
+}
+
+nav ul li a
+{
+    color:#CCC;
+    text-decoration:none;
+    font-size: 16px;
+    font-family:Verdana, Geneva, sans-serif;
+  
+    width: 100%;
+    margin: ;
+}
+nav ul li a:hover
+{
+    background-color: red;
+    display: block;
+    width: 100%;
+}
+
+
+.slider
+{
+    width: 100%;
+    height: 100px;
+
+    
+}
+
+.content
+{
+
+    width: auto;
+    margin: 0;
+}
+
+.one
+{
+   width: 100%;
+   padding: 2% 2% 3% 2%;
+   margin: -2px 0 0 -2%;
+}
+
+.two
+{
+   width: 100%;
+   padding: 2% 2% 3% 2%;
+   margin: -16px 0 0 -2%;
+
+}
+.three
+{
+       width: 100%;
+       padding: 2% 2% 3% 2%;
+       margin: -16px -6.5px 0 0%;
+
+}
+.four
+{
+       width: 100%;
+       padding: 2% 2% 3% 2%;
+       margin: 3px -6.5px 0 0;
+}
+#video
+{
+       width: 100%;
+       padding: 2% 2% 3% 2%;
+       margin: 3px -6.5px 10% 0%;
+}
+.follow
+{
+       width: 95%;
+       padding: 2% 2% 3% 2%;
+       margin: 1px -6.5px 0 0;
+       visibility: hidden;
+}
+
+.followlogo
+{
+       visibility: hidden;
+}
+.add{
+  margin: -23% 34% 0 0;
+
+}
+
+
+.fevicon ul 
+{
+  width: 69%;
+  margin: -124% 0 0 96%;
+}
+ .fevicon ul li{
+  margin: -30% 0% 0% 0%;
+ }
+
+
+.right
+{
+    width: 170%;
+    margin:40% 0 0 -73%; 
+    display: inline-block;
+}
+.arr{margin-left:25%;}
+
+
+
+
+
+
+
+

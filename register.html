@@ -1,0 +1,300 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Create your Account</title>
+<link rel="icon" type="image/png" href="favicon.png"/>
+<link rel="stylesheet" href="lk.css"/>
+<link rel="stylesheet" href="animate.min.css"/>
+<script src="jquery-3.2.1.min.js"></script>
+
+<script>
+$(document).ready(function(){
+ //--- alert("I am On");---//
+})
+</script>
+
+
+</head>
+
+
+
+<body class="body" style="font-style: ariel">
+
+
+  <header class="header">
+	     
+         <figure><img src="logo1.png" width="11%" class="logo1"></figure>
+
+         <span class="cntct blink">CONTACT: 1800-00-0111</span>
+	
+    <nav> 
+       <ul>
+	        <li><a href="index.html">Home </a></li>
+          <li><a href="#">About Us </a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Courses</a></li>
+          <li><a href="#">Academic</a></li>
+          <li><a href="#">Contacts</a></li>
+          <li><a id="active" href="signup.html">Signup</a></li>
+       </ul>
+    </nav>
+     
+  </header>
+
+
+
+
+   <section class="fcontent">
+
+    <form method="post" name="signup" enctype="multipart/form-data">
+        <div class="clr"></div>
+        
+        
+
+        <h2 class="scenter"><b>Sign Up</b></h2>
+        
+       <fieldset class="field">
+           <label>Username:</label>
+           <input type="text" class="spc" id="uname" name="Username" />
+           <span id="err1" style="color:#FF0000; margin: 20px 60px 0 0px;"></span>
+
+          
+        </div>
+        <div>
+            <label>Date of Birth:</label>
+            
+<select class="dob" id="dob">
+<option> Month </option>
+<option value="January">January</option>
+<option value="Febuary">Febuary</option>
+<option value="March">March</option>
+<option value="April">April</option>
+<option value="May">May</option>
+<option value="June">June</option>
+<option value="July">July</option>
+<option value="August">August</option>
+<option value="September">September</option>
+<option value="October">October</option>
+<option value="November">November</option>
+<option value="December">December</option>
+</select>
+
+<select>
+<option> Day </option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+</select>
+
+<select>
+<option> Year </option>
+<option value="1993">1993</option>
+<option value="1992">1992</option>
+<option value="1991">1991</option>
+<option value="1990">1990</option>
+<option value="1989">1989</option>
+<option value="1988">1988</option>
+<option value="1987">1987</option>
+<option value="1986">1986</option>
+<option value="1985">1985</option>
+<option value="1984">1984</option>
+<option value="1983">1983</option>
+<option value="1982">1982</option>
+<option value="1981">1981</option>
+<option value="1980">1980</option>
+<option value="1979">1979</option>
+<option value="1978">1978</option>
+<option value="1977">1977</option>
+<option value="1976">1976</option>
+<option value="1975">1975</option>
+<option value="1974">1974</option>
+<option value="1973">1973</option>
+<option value="1972">1972</option>
+<option value="1971">1971</option>
+<option value="1970">1970</option>
+<option value="1969">1969</option>
+<option value="1968">1968</option>
+<option value="1967">1967</option>
+<option value="1966">1966</option>
+<option value="1965">1965</option>
+<option value="1964">1964</option>
+<option value="1963">1963</option>
+<option value="1962">1962</option>
+<option value="1961">1961</option>
+<option value="1960">1960</option>
+<option value="1959">1959</option>
+<option value="1958">1958</option>
+<option value="1957">1957</option>
+<option value="1956">1956</option>
+<option value="1955">1955</option>
+<option value="1954">1954</option>
+<option value="1953">1953</option>
+<option value="1952">1952</option>
+<option value="1951">1951</option>
+<option value="1950">1950</option>
+<option value="1949">1949</option>
+<option value="1948">1948</option>
+<option value="1947">1947</option>
+
+</select>
+
+        </div>
+        <div>
+            <label>Gender:</label>
+            <input type="radio" class="dob" name="gender" value="Male" />Male
+            <input type="radio" name="gender" value="Female" />Female
+        </div>
+        <div>
+            <label>Email Id:</label>
+            <input type="Email" class="spc" name="Email" id="email" placeholder="Enter Email" />
+            <span id="err2" style="color:#FF0000; margin: 20px 60px 0 0px;"></span>
+        </div>
+        <div>
+            <label>Contact No:</label>
+            <input type="text" class="spc"/>
+        </div>
+        <div>
+            <label style="vertical-align: top;"> Address: </label>
+            <textarea rows="8" column="100" style="width: 147px; height: 75px;" class="spc">
+              
+            </textarea>
+        </div>
+        <div>
+            <label>City:</label>
+            <input type="text" class="spc"/>
+        </div>
+        <div>
+            <label>State:</label>
+            <select class="sel" >
+            <option value="West Bengal">West Bengal
+            <option value="Maharashtra">Maharashtra
+            <option value="New Delhi">New Delhi
+            <option value="Assam">Assam
+            </select>
+        </div>
+        </fieldset><br>
+       
+        <div style="margin-left:40%;">
+           <input type="checkbox" class="checkbox"/>I agree for all <a href="#"/> terms & conditions*
+       
+       </div>
+           <a href="#" style="text-decoration: none;">
+           <input type="submit" value="SignUp" class="Signup" onclick="return validate()" /> </a>
+        
+    </form>
+</section>
+
+
+
+
+  <footer class="first">
+        
+      <div class="follow">
+        <span><a href="index.html"><img src="logo1.png" style="width:10%; margin:0% 6% 1% 0%;" class="followlogo"></a></span>
+      </div>
+      <div class="sending">
+        <p class="mailing"">Email:<a href="mailto:vivekkumargupta71199@gmail.com" class="followmail blink" target="_top">vivekkumargupta71199@gmail.com</a></p>
+      
+        <p class="twitt">Twitter:<a href="@leadingk" class="twi blink">@leadingk</a></p>
+      </div>
+
+       <div class="fevicon">
+      
+        <ul>
+           <li><a href="" target="_blank"><img src="facebook.png" alt="" height="20px" width="20px"/></a></li>
+      
+           <li><a href=""><img src="twitter.png" height="20px" width="20px"></a></li>
+      
+           <li><a href="" ><img src="linkedin1.jpeg" height="20px" width="20px"></a></li>
+      
+           <li><a href=""><img src="googleplus.png" height=20px width="20px"></a></li>
+        </ul>
+     </div>
+      <p class="add">New Ashok Nagar,<br/>New Delhi</p>
+
+
+  
+      <div class="last">
+
+         <div class="right">&copy; Leading Knowledge Pvt Ltd&copy;2010-2017 <p class="arr">All Right Reserved</p>
+         </div>
+
+    
+  </div>
+
+ 
+<script>
+function validate()
+
+{
+
+    var un = document.getElementById('uname').value;
+    var ck_name = /^[A-Za-z]/
+    var unlength = (un.length) + 1;
+    var email= document.getElementById('email').value;
+    if (un=="")
+    {
+       var msg = "Please enter name";
+       document.getElementById('err1').innerHTML = msg;
+       document.signup.Username.focus();
+       return false;
+    }
+
+    else if (!ck_name.test(un))
+    {
+      var msg = "username should cantain A-Za-z character";
+      document.getElementById('err1').innerHTML = msg;
+      return false;
+    }
+    else if (unlength<5||unlength>16)
+    {
+      var msg = "username should cantain 4-15 characters";
+      document.getElementById('err1').innerHTML = msg;
+      return false;
+    }
+
+    
+    if (email=="")
+    {
+      var msg = "Please enter email";
+      document.getElementById('err2').innerHTML = msg;
+      document.signup.Email.focus();
+      return false;
+    }
+
+    
+
+}
+</script>
+  </body>
+  </html>
